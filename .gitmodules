@@ -1,0 +1,3 @@
+[submodule "SubModules/TEKAModel"]
+	path = SubModules/TEKAModel
+	url = https://github.com/TheFibonacciSolution/TEKAModel.git

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEKAPrototype", "TEKAProtot
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{54F6B080-CFBA-4585-B5F4-881367728917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEKA.Model", "SubModules\TEKAModel\TEKA.Model\TEKA.Model.csproj", "{A21932ED-9EE9-4905-80C1-140F60157950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{4507D64E-2D8C-4F98-A2B4-FA363B0E83D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4507D64E-2D8C-4F98-A2B4-FA363B0E83D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4507D64E-2D8C-4F98-A2B4-FA363B0E83D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21932ED-9EE9-4905-80C1-140F60157950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21932ED-9EE9-4905-80C1-140F60157950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21932ED-9EE9-4905-80C1-140F60157950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21932ED-9EE9-4905-80C1-140F60157950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A21932ED-9EE9-4905-80C1-140F60157950} = {54F6B080-CFBA-4585-B5F4-881367728917}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0EEE0F00-D1EE-4CC4-B7F4-EA2F854E8B26}
